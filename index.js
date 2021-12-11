@@ -21,6 +21,6 @@ app.get("/", (req, res) => {
   res.send("Server is running!");
 });
 
-app.listen(port, () => {
+app.listen(port, () => { 
   console.log(`App listening at http://localhost:${port}`);
 });
